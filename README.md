@@ -13,13 +13,13 @@ The Swift Weather App is a simple yet powerful application built using Swift 5 a
 
 ## Screens
 1. **Home Screen** - Shows the weather data for the user's current location.
-   ![Home Screen](screens/home.png)
+   <img src="screens/home.png" width="300">
 2. **Select Location** - Allows the user to choose a different city.
-   ![Select Location](screens/select_location.png)
+   <img src="screens/select_location.png" width="300">
 3. **Search City** - Users can search for a city using the search bar.
-   ![Search City](screens/search.png)
+   <img src="screens/search.png" width="300">
 4. **City Weather** - Displays weather data for the selected city.
-   ![City Weather](screens/new_city_populated.png)
+   <img src="screens/new_city_populated.png" width="300">
 
 ## Data Sources and Libraries
 - **OpenWeather API**: The application fetches weather data using the [OpenWeather API](https://home.openweathermap.org/).
@@ -46,4 +46,4 @@ Upon launching the app, you will be prompted to allow location access. Granting 
 
 ---
 
-Developed with ❤️ by [Roshni Soni]
+Developed with ❤️ by Roshni Soni
