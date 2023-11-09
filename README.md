@@ -1,28 +1,49 @@
-# Swift-Weather-App
+# Swift Weather App
 
-A basic weather app is implemented using Swift5 and Xcode.
-The app displays following information to the user:
-1. Location
-2. Day of the week
-3. Temperature in degree celsius
-4. Weather condition
-5. An image based on the weather condition
-6. A button to select any other location
-When the app is loaded for the first time, a dialog box appears which asks the user to grant location access.
-On click of the ‘Select Location’ button, a list of cities is shown to the user and the user can select any city by scrolling or can Search the city using a search bar.
-The app uses open weather api to get the weather data. https://home.openweathermap.org/ List of cities is fetched from a json file which is downloaded from the same site.
-Following libraries are installed and imported using pod:
-1. Alamofire: To make request to web api
-2. SwiftyJSON: To read api json response
-3. NVActivityIndicatorView: To display location dialog box
+## Overview
+The Swift Weather App is a simple yet powerful application built using Swift 5 and Xcode. It provides users with real-time weather updates and forecasts. The interface is designed to be user-friendly, displaying key weather information along with relevant imagery.
 
- 
- Screens:
- 1. Home Screen (User’s location Data)
- 
- 2. On click of ‘Select Location’ Button
- 
- 3. On Search
- 
- 4. On Click of any city from the list
- 
+## Features
+- **Current Location Weather**: Automatically displays weather data for the user's current location.
+- **Day and Temperature**: Shows the day of the week and current temperature in degrees Celsius.
+- **Weather Conditions**: Describes the current weather conditions along with an icon representation.
+- **City Selection**: Users can select different locations to view the weather forecast by clicking on the 'Select Location' button.
+- **Search Functionality**: Features a search bar to find cities quickly.
+- **Location Permission**: On first launch, the app requests the user's permission to access location data.
+
+## Screens
+1. **Home Screen** - Shows the weather data for the user's current location.
+   ![Home Screen](screens/home.jpg)
+2. **Select Location** - Allows the user to choose a different city.
+   ![Select Location](screens/select_location.jpg)
+3. **Search City** - Users can search for a city using the search bar.
+   ![Search City](screens/search.jpg)
+4. **City Weather** - Displays weather data for the selected city.
+   ![City Weather](screens/new_city_populated.jpg)
+
+## Data Sources and Libraries
+- **OpenWeather API**: The application fetches weather data using the [OpenWeather API](https://home.openweathermap.org/).
+- **City List**: A JSON file containing the list of cities is sourced from the OpenWeather website.
+
+### Libraries Used
+- **Alamofire**: For making network requests to the OpenWeather API.
+- **SwiftyJSON**: For parsing the JSON responses from the API.
+- **NVActivityIndicatorView**: For displaying a loading animation while fetching data.
+
+## Getting Started
+To run the Swift Weather App on your local machine, you will need to have Xcode installed. Clone the repository, open the project in Xcode, and run it on your preferred simulator or physical device.
+
+Ensure that you have CocoaPods installed and run `pod install` to get the necessary libraries set up for the project.
+
+## Usage
+Upon launching the app, you will be prompted to allow location access. Granting access will automatically display the weather data for your current location. To view the weather in a different city, tap the 'Select Location' button and either select from the list or use the search bar to find your city.
+
+## Acknowledgements
+- [OpenWeatherMap](https://openweathermap.org/)
+- [Alamofire](https://github.com/Alamofire/Alamofire)
+- [SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)
+- [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView)
+
+---
+
+Developed with ❤️ by [Roshni Soni]
