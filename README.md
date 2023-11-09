@@ -15,8 +15,7 @@ Following libraries are installed and imported using pod:
 1. Alamofire: To make request to web api
 2. SwiftyJSON: To read api json response
 3. NVActivityIndicatorView: To display location dialog box
-** The app is a bit slow when ‘Select Location’ button is clicked as the cities json file is big and it takes time to load the data
-- Roshni Soni
+
  
  Screens:
  1. Home Screen (User’s location Data)
